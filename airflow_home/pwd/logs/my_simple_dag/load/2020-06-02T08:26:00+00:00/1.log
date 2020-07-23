@@ -1,0 +1,25 @@
+[2020-06-02 20:50:47,096] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T08:26:00+00:00 [queued]>
+[2020-06-02 20:50:47,105] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T08:26:00+00:00 [queued]>
+[2020-06-02 20:50:47,105] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 20:50:47,105] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-02 20:50:47,105] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 20:50:47,131] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): load> on 2020-06-02T08:26:00+00:00
+[2020-06-02 20:50:47,136] {standard_task_runner.py:53} INFO - Started process 28031 to run task
+[2020-06-02 20:50:47,241] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.load 2020-06-02T08:26:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-02 20:50:47,259] {taskinstance.py:1145} ERROR - an integer is required (got type str)
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py", line 96, in load_data_func
+    output_rows=load_data(report_name)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py", line 72, in load_data
+    partion='${}'.format(file_date.replace('-',''))
+TypeError: an integer is required (got type str)
+[2020-06-02 20:50:47,260] {taskinstance.py:1202} INFO - Marking task as FAILED.dag_id=my_simple_dag, task_id=load, execution_date=20200602T082600, start_date=20200602T152047, end_date=20200602T152047
+[2020-06-02 20:50:57,060] {logging_mixin.py:112} INFO - [2020-06-02 20:50:57,059] {local_task_job.py:103} INFO - Task exited with return code 1

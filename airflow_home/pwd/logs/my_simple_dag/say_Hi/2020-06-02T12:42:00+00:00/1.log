@@ -1,0 +1,19 @@
+[2020-06-10 10:50:16,679] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.say_Hi 2020-06-02T12:42:00+00:00 [queued]>
+[2020-06-10 10:50:16,695] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.say_Hi 2020-06-02T12:42:00+00:00 [queued]>
+[2020-06-10 10:50:16,695] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-10 10:50:16,695] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-10 10:50:16,695] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-10 10:50:16,728] {taskinstance.py:900} INFO - Executing <Task(BashOperator): say_Hi> on 2020-06-02T12:42:00+00:00
+[2020-06-10 10:50:16,730] {standard_task_runner.py:53} INFO - Started process 5428 to run task
+[2020-06-10 10:50:16,881] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.say_Hi 2020-06-02T12:42:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-10 10:50:16,910] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-06-10 10:50:16,912] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmphlckq14l/say_Hicw98d7zs
+[2020-06-10 10:50:16,913] {bash_operator.py:115} INFO - Running command: echo "Hi!!"
+[2020-06-10 10:50:16,924] {bash_operator.py:122} INFO - Output:
+[2020-06-10 10:50:16,924] {bash_operator.py:126} INFO - Hi!!
+[2020-06-10 10:50:16,924] {bash_operator.py:130} INFO - Command exited with return code 0
+[2020-06-10 10:50:16,932] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=my_simple_dag, task_id=say_Hi, execution_date=20200602T124200, start_date=20200610T052016, end_date=20200610T052016
+[2020-06-10 10:50:26,640] {logging_mixin.py:112} INFO - [2020-06-10 10:50:26,639] {local_task_job.py:103} INFO - Task exited with return code 0

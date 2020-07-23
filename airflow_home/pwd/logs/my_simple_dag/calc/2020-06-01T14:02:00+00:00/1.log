@@ -1,0 +1,23 @@
+[2020-06-02 14:18:47,621] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.calc 2020-06-01T14:02:00+00:00 [queued]>
+[2020-06-02 14:18:47,631] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.calc 2020-06-01T14:02:00+00:00 [queued]>
+[2020-06-02 14:18:47,631] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 14:18:47,632] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-02 14:18:47,632] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 14:18:47,659] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): calc> on 2020-06-01T14:02:00+00:00
+[2020-06-02 14:18:47,661] {standard_task_runner.py:53} INFO - Started process 23236 to run task
+[2020-06-02 14:18:47,729] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.calc 2020-06-01T14:02:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-02 14:18:47,749] {taskinstance.py:1145} ERROR - 'str' object has no attribute 'output_rows'
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py", line 102, in get_percentage_func
+    return (job.output_rows * 100)/ rows
+AttributeError: 'str' object has no attribute 'output_rows'
+[2020-06-02 14:18:47,750] {taskinstance.py:1202} INFO - Marking task as FAILED.dag_id=my_simple_dag, task_id=calc, execution_date=20200601T140200, start_date=20200602T084847, end_date=20200602T084847
+[2020-06-02 14:18:57,569] {logging_mixin.py:112} INFO - [2020-06-02 14:18:57,568] {local_task_job.py:103} INFO - Task exited with return code 1

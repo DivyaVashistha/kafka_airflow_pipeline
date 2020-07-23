@@ -1,0 +1,26 @@
+[2020-06-09 16:16:16,181] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T11:24:00+00:00 [queued]>
+[2020-06-09 16:16:16,191] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T11:24:00+00:00 [queued]>
+[2020-06-09 16:16:16,191] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 16:16:16,191] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-09 16:16:16,191] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 16:16:16,224] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): load> on 2020-06-02T11:24:00+00:00
+[2020-06-09 16:16:16,227] {standard_task_runner.py:53} INFO - Started process 31996 to run task
+[2020-06-09 16:16:16,297] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.load 2020-06-02T11:24:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-09 16:16:16,321] {logging_mixin.py:112} INFO - 2020-06-09
+[2020-06-09 16:16:25,246] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:16:25,247] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:16:25,248] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:16:25,248] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:16:25,248] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:16:25,248] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:16:25,248] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:16:25,248] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:16:25,248] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:16:25,249] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:16:25,251] {logging_mixin.py:112} INFO - [2020-06-09 16:16:25,249] {kafka.py:471} INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+[2020-06-09 16:16:25,252] {logging_mixin.py:112} INFO - [2020-06-09 16:16:25,251] {kafka.py:461} INFO - Kafka producer closed
+[2020-06-09 16:16:25,252] {python_operator.py:114} INFO - Done. Returned value was: 37
+[2020-06-09 16:16:25,288] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=my_simple_dag, task_id=load, execution_date=20200602T112400, start_date=20200609T104616, end_date=20200609T104625
+[2020-06-09 16:16:26,139] {logging_mixin.py:112} INFO - [2020-06-09 16:16:26,138] {local_task_job.py:103} INFO - Task exited with return code 0

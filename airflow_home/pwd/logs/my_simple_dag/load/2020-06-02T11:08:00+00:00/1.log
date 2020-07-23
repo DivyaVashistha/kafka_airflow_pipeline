@@ -1,0 +1,27 @@
+[2020-06-09 16:09:11,471] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T11:08:00+00:00 [queued]>
+[2020-06-09 16:09:11,485] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T11:08:00+00:00 [queued]>
+[2020-06-09 16:09:11,485] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 16:09:11,485] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-09 16:09:11,485] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 16:09:11,524] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): load> on 2020-06-02T11:08:00+00:00
+[2020-06-09 16:09:11,527] {standard_task_runner.py:53} INFO - Started process 31309 to run task
+[2020-06-09 16:09:11,609] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.load 2020-06-02T11:08:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-09 16:09:11,630] {logging_mixin.py:112} INFO - 2020-06-09
+[2020-06-09 16:09:21,677] {logging_mixin.py:112} INFO - [2020-06-09 16:09:21,677] {connectionpool.py:750} WARNING - Retrying ('\x1b[1mRetry(total=2, connect=None, read=None, redirect=None, status=None)\x1b[0m') after connection broken by ''\x1b[1m<urllib3.connection.HTTPSConnection object at 0x7f6433704ba8>: Failed to establish a new connection: [Errno -2] Name or service not known\x1b[0m'': /token
+[2020-06-09 16:09:37,304] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:09:37,304] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:09:37,305] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:09:37,305] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:09:37,305] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:09:37,305] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:09:37,305] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:09:37,305] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:09:37,305] {logging_mixin.py:112} INFO - Exception in publishing message
+[2020-06-09 16:09:37,305] {logging_mixin.py:112} INFO - encoding without a string argument
+[2020-06-09 16:09:37,306] {logging_mixin.py:112} INFO - [2020-06-09 16:09:37,305] {kafka.py:471} INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+[2020-06-09 16:09:37,307] {logging_mixin.py:112} INFO - [2020-06-09 16:09:37,306] {kafka.py:461} INFO - Kafka producer closed
+[2020-06-09 16:09:37,307] {python_operator.py:114} INFO - Done. Returned value was: 37
+[2020-06-09 16:09:37,355] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=my_simple_dag, task_id=load, execution_date=20200602T110800, start_date=20200609T103911, end_date=20200609T103937
+[2020-06-09 16:09:41,569] {logging_mixin.py:112} INFO - [2020-06-09 16:09:41,568] {local_task_job.py:103} INFO - Task exited with return code 0

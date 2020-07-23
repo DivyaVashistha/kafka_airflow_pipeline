@@ -1,0 +1,14 @@
+[2020-06-10 11:15:59,968] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.extract 2020-06-02T13:34:00+00:00 [queued]>
+[2020-06-10 11:15:59,979] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.extract 2020-06-02T13:34:00+00:00 [queued]>
+[2020-06-10 11:15:59,980] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-10 11:15:59,980] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-10 11:15:59,980] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-10 11:16:00,023] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): extract> on 2020-06-02T13:34:00+00:00
+[2020-06-10 11:16:00,026] {standard_task_runner.py:53} INFO - Started process 7021 to run task
+[2020-06-10 11:16:00,151] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.extract 2020-06-02T13:34:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-10 11:16:14,822] {logging_mixin.py:112} INFO - data added to csv with 38 rows on 2020-06-10 at 11:16:14.822193
+[2020-06-10 11:16:14,827] {python_operator.py:114} INFO - Done. Returned value was: (datetime.date(2020, 6, 10), 37)
+[2020-06-10 11:16:14,889] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=my_simple_dag, task_id=extract, execution_date=20200602T133400, start_date=20200610T054559, end_date=20200610T054614
+[2020-06-10 11:16:14,986] {logging_mixin.py:112} INFO - [2020-06-10 11:16:14,986] {local_task_job.py:103} INFO - Task exited with return code 0

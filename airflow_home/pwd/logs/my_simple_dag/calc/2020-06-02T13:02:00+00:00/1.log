@@ -1,0 +1,13 @@
+[2020-06-10 11:05:27,905] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.calc 2020-06-02T13:02:00+00:00 [queued]>
+[2020-06-10 11:05:27,917] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.calc 2020-06-02T13:02:00+00:00 [queued]>
+[2020-06-10 11:05:27,918] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-10 11:05:27,918] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-10 11:05:27,918] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-10 11:05:27,947] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): calc> on 2020-06-02T13:02:00+00:00
+[2020-06-10 11:05:27,949] {standard_task_runner.py:53} INFO - Started process 6419 to run task
+[2020-06-10 11:05:28,016] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.calc 2020-06-02T13:02:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-10 11:05:28,036] {python_operator.py:114} INFO - Done. Returned value was: 100.0
+[2020-06-10 11:05:28,075] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=my_simple_dag, task_id=calc, execution_date=20200602T130200, start_date=20200610T053527, end_date=20200610T053528
+[2020-06-10 11:05:37,873] {logging_mixin.py:112} INFO - [2020-06-10 11:05:37,873] {local_task_job.py:103} INFO - Task exited with return code 0

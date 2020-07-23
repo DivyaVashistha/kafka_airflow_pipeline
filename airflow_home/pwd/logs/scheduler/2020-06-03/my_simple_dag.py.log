@@ -1,0 +1,182 @@
+[2020-06-03 16:01:20,237] {scheduler_job.py:154} INFO - Started process (PID=3552) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:01:20,239] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-03 16:01:20,239] {logging_mixin.py:112} INFO - [2020-06-03 16:01:20,239] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:01:20,530] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:01:20,562] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-03 16:01:20,635] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-02T10:18:00+00:00: scheduled__2020-06-02T10:18:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,642] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:02:00+00:00: scheduled__2020-06-02T10:02:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,657] {logging_mixin.py:112} INFO - [2020-06-03 16:01:20,657] {dagrun.py:318} INFO - Marking run <DagRun my_simple_dag @ 2020-06-02 10:02:00+00:00: scheduled__2020-06-02T10:02:00+00:00, externally triggered: False> successful
+[2020-06-03 16:01:20,694] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:04:00+00:00: scheduled__2020-06-02T10:04:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,724] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:06:00+00:00: scheduled__2020-06-02T10:06:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,738] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:08:00+00:00: scheduled__2020-06-02T10:08:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,747] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:10:00+00:00: scheduled__2020-06-02T10:10:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,755] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:12:00+00:00: scheduled__2020-06-02T10:12:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,763] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:14:00+00:00: scheduled__2020-06-02T10:14:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,771] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:16:00+00:00: scheduled__2020-06-02T10:16:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,776] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:18:00+00:00: scheduled__2020-06-02T10:18:00+00:00, externally triggered: False>
+[2020-06-03 16:01:20,840] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-03 16:01:20,843] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.calc 2020-06-02 10:04:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:01:20,845] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.calc 2020-06-02 10:06:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:01:20,848] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.load 2020-06-02 10:08:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:01:20,850] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.load 2020-06-02 10:10:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:01:20,852] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.extract 2020-06-02 10:12:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:01:20,855] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.extract 2020-06-02 10:14:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:01:20,857] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-02 10:16:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:01:20,860] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-02 10:18:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:01:20,900] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py took 0.663 seconds
+[2020-06-03 16:01:22,219] {scheduler_job.py:154} INFO - Started process (PID=3553) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:01:22,222] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-03 16:01:22,223] {logging_mixin.py:112} INFO - [2020-06-03 16:01:22,222] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:01:22,585] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:01:22,625] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-03 16:01:22,700] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-02T10:20:00+00:00: scheduled__2020-06-02T10:20:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,703] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:04:00+00:00: scheduled__2020-06-02T10:04:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,711] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:06:00+00:00: scheduled__2020-06-02T10:06:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,719] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:08:00+00:00: scheduled__2020-06-02T10:08:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,727] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:10:00+00:00: scheduled__2020-06-02T10:10:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,736] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:12:00+00:00: scheduled__2020-06-02T10:12:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,744] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:14:00+00:00: scheduled__2020-06-02T10:14:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,753] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:16:00+00:00: scheduled__2020-06-02T10:16:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,758] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:18:00+00:00: scheduled__2020-06-02T10:18:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,764] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:20:00+00:00: scheduled__2020-06-02T10:20:00+00:00, externally triggered: False>
+[2020-06-03 16:01:22,829] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-03 16:01:22,833] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-02 10:20:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:01:22,865] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py took 0.646 seconds
+[2020-06-03 16:03:06,781] {scheduler_job.py:154} INFO - Started process (PID=3964) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:03:06,784] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-03 16:03:06,785] {logging_mixin.py:112} INFO - [2020-06-03 16:03:06,785] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:03:07,279] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:03:07,312] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-03 16:03:07,403] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-02T10:22:00+00:00: scheduled__2020-06-02T10:22:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,407] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:04:00+00:00: scheduled__2020-06-02T10:04:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,416] {logging_mixin.py:112} INFO - [2020-06-03 16:03:07,416] {dagrun.py:318} INFO - Marking run <DagRun my_simple_dag @ 2020-06-02 10:04:00+00:00: scheduled__2020-06-02T10:04:00+00:00, externally triggered: False> successful
+[2020-06-03 16:03:07,433] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:06:00+00:00: scheduled__2020-06-02T10:06:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,442] {logging_mixin.py:112} INFO - [2020-06-03 16:03:07,442] {dagrun.py:318} INFO - Marking run <DagRun my_simple_dag @ 2020-06-02 10:06:00+00:00: scheduled__2020-06-02T10:06:00+00:00, externally triggered: False> successful
+[2020-06-03 16:03:07,471] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:08:00+00:00: scheduled__2020-06-02T10:08:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,484] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:10:00+00:00: scheduled__2020-06-02T10:10:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,497] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:12:00+00:00: scheduled__2020-06-02T10:12:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,510] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:14:00+00:00: scheduled__2020-06-02T10:14:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,523] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:16:00+00:00: scheduled__2020-06-02T10:16:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,537] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:18:00+00:00: scheduled__2020-06-02T10:18:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,551] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:20:00+00:00: scheduled__2020-06-02T10:20:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,561] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:22:00+00:00: scheduled__2020-06-02T10:22:00+00:00, externally triggered: False>
+[2020-06-03 16:03:07,665] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-03 16:03:07,671] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.calc 2020-06-02 10:08:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:03:07,676] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.calc 2020-06-02 10:10:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:03:07,680] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.load 2020-06-02 10:12:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:03:07,685] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.load 2020-06-02 10:14:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:03:07,690] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.extract 2020-06-02 10:16:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:03:07,695] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.extract 2020-06-02 10:18:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:03:07,700] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-02 10:22:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:03:07,735] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py took 0.954 seconds
+[2020-06-03 16:03:20,023] {scheduler_job.py:154} INFO - Started process (PID=3974) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:03:20,027] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-03 16:03:20,028] {logging_mixin.py:112} INFO - [2020-06-03 16:03:20,028] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:03:20,329] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:03:20,360] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-03 16:03:20,440] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-02T10:24:00+00:00: scheduled__2020-06-02T10:24:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,443] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:08:00+00:00: scheduled__2020-06-02T10:08:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,451] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:10:00+00:00: scheduled__2020-06-02T10:10:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,459] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:12:00+00:00: scheduled__2020-06-02T10:12:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,467] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:14:00+00:00: scheduled__2020-06-02T10:14:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,476] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:16:00+00:00: scheduled__2020-06-02T10:16:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,484] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:18:00+00:00: scheduled__2020-06-02T10:18:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,492] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:20:00+00:00: scheduled__2020-06-02T10:20:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,500] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:22:00+00:00: scheduled__2020-06-02T10:22:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,506] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:24:00+00:00: scheduled__2020-06-02T10:24:00+00:00, externally triggered: False>
+[2020-06-03 16:03:20,567] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-03 16:03:20,570] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.extract 2020-06-02 10:20:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:03:20,573] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-02 10:24:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:03:20,612] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py took 0.588 seconds
+[2020-06-03 16:04:52,838] {scheduler_job.py:154} INFO - Started process (PID=4058) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:04:52,847] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-03 16:04:52,848] {logging_mixin.py:112} INFO - [2020-06-03 16:04:52,848] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:04:53,256] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:04:53,293] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-03 16:04:53,371] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-02T10:26:00+00:00: scheduled__2020-06-02T10:26:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,373] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:08:00+00:00: scheduled__2020-06-02T10:08:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,379] {logging_mixin.py:112} INFO - [2020-06-03 16:04:53,379] {dagrun.py:318} INFO - Marking run <DagRun my_simple_dag @ 2020-06-02 10:08:00+00:00: scheduled__2020-06-02T10:08:00+00:00, externally triggered: False> successful
+[2020-06-03 16:04:53,403] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:10:00+00:00: scheduled__2020-06-02T10:10:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,409] {logging_mixin.py:112} INFO - [2020-06-03 16:04:53,409] {dagrun.py:318} INFO - Marking run <DagRun my_simple_dag @ 2020-06-02 10:10:00+00:00: scheduled__2020-06-02T10:10:00+00:00, externally triggered: False> successful
+[2020-06-03 16:04:53,441] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:12:00+00:00: scheduled__2020-06-02T10:12:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,449] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:14:00+00:00: scheduled__2020-06-02T10:14:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,457] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:16:00+00:00: scheduled__2020-06-02T10:16:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,465] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:18:00+00:00: scheduled__2020-06-02T10:18:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,475] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:20:00+00:00: scheduled__2020-06-02T10:20:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,483] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:22:00+00:00: scheduled__2020-06-02T10:22:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,492] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:24:00+00:00: scheduled__2020-06-02T10:24:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,498] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:26:00+00:00: scheduled__2020-06-02T10:26:00+00:00, externally triggered: False>
+[2020-06-03 16:04:53,563] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-03 16:04:53,566] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.calc 2020-06-02 10:12:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:04:53,569] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.calc 2020-06-02 10:14:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:04:53,572] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.load 2020-06-02 10:16:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:04:53,575] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.load 2020-06-02 10:18:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:04:53,577] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.extract 2020-06-02 10:22:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:04:53,580] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-02 10:26:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:04:53,625] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py took 0.787 seconds
+[2020-06-03 16:05:17,448] {scheduler_job.py:154} INFO - Started process (PID=4080) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:05:17,450] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-03 16:05:17,450] {logging_mixin.py:112} INFO - [2020-06-03 16:05:17,450] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:05:17,750] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:05:17,787] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-03 16:05:17,870] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-02T10:28:00+00:00: scheduled__2020-06-02T10:28:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,872] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:12:00+00:00: scheduled__2020-06-02T10:12:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,880] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:14:00+00:00: scheduled__2020-06-02T10:14:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,888] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:16:00+00:00: scheduled__2020-06-02T10:16:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,897] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:18:00+00:00: scheduled__2020-06-02T10:18:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,905] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:20:00+00:00: scheduled__2020-06-02T10:20:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,913] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:22:00+00:00: scheduled__2020-06-02T10:22:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,921] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:24:00+00:00: scheduled__2020-06-02T10:24:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,929] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:26:00+00:00: scheduled__2020-06-02T10:26:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,934] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:28:00+00:00: scheduled__2020-06-02T10:28:00+00:00, externally triggered: False>
+[2020-06-03 16:05:17,997] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-03 16:05:18,000] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.load 2020-06-02 10:20:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:05:18,003] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.extract 2020-06-02 10:24:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:05:18,005] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-02 10:28:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:05:18,032] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py took 0.584 seconds
+[2020-06-03 16:06:38,298] {scheduler_job.py:154} INFO - Started process (PID=4143) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:06:38,300] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-03 16:06:38,300] {logging_mixin.py:112} INFO - [2020-06-03 16:06:38,300] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:06:38,603] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:06:38,634] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-03 16:06:38,700] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-02T10:30:00+00:00: scheduled__2020-06-02T10:30:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,702] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:12:00+00:00: scheduled__2020-06-02T10:12:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,708] {logging_mixin.py:112} INFO - [2020-06-03 16:06:38,708] {dagrun.py:318} INFO - Marking run <DagRun my_simple_dag @ 2020-06-02 10:12:00+00:00: scheduled__2020-06-02T10:12:00+00:00, externally triggered: False> successful
+[2020-06-03 16:06:38,732] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:14:00+00:00: scheduled__2020-06-02T10:14:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,738] {logging_mixin.py:112} INFO - [2020-06-03 16:06:38,738] {dagrun.py:318} INFO - Marking run <DagRun my_simple_dag @ 2020-06-02 10:14:00+00:00: scheduled__2020-06-02T10:14:00+00:00, externally triggered: False> successful
+[2020-06-03 16:06:38,764] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:16:00+00:00: scheduled__2020-06-02T10:16:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,772] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:18:00+00:00: scheduled__2020-06-02T10:18:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,780] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:20:00+00:00: scheduled__2020-06-02T10:20:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,788] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:22:00+00:00: scheduled__2020-06-02T10:22:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,796] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:24:00+00:00: scheduled__2020-06-02T10:24:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,804] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:26:00+00:00: scheduled__2020-06-02T10:26:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,812] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:28:00+00:00: scheduled__2020-06-02T10:28:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,819] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:30:00+00:00: scheduled__2020-06-02T10:30:00+00:00, externally triggered: False>
+[2020-06-03 16:06:38,888] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-03 16:06:38,891] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.calc 2020-06-02 10:16:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:06:38,894] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.calc 2020-06-02 10:18:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:06:38,897] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.load 2020-06-02 10:22:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:06:38,899] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.extract 2020-06-02 10:26:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:06:38,902] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-02 10:30:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:06:38,933] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py took 0.636 seconds
+[2020-06-03 16:07:19,203] {scheduler_job.py:154} INFO - Started process (PID=4218) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:07:19,205] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-03 16:07:19,205] {logging_mixin.py:112} INFO - [2020-06-03 16:07:19,205] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:07:19,662] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-03 16:07:19,702] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-03 16:07:19,789] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-02T10:32:00+00:00: scheduled__2020-06-02T10:32:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,792] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:16:00+00:00: scheduled__2020-06-02T10:16:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,800] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:18:00+00:00: scheduled__2020-06-02T10:18:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,808] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:20:00+00:00: scheduled__2020-06-02T10:20:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,817] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:22:00+00:00: scheduled__2020-06-02T10:22:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,826] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:24:00+00:00: scheduled__2020-06-02T10:24:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,835] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:26:00+00:00: scheduled__2020-06-02T10:26:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,844] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:28:00+00:00: scheduled__2020-06-02T10:28:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,852] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:30:00+00:00: scheduled__2020-06-02T10:30:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,858] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-02 10:32:00+00:00: scheduled__2020-06-02T10:32:00+00:00, externally triggered: False>
+[2020-06-03 16:07:19,920] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-03 16:07:19,923] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.calc 2020-06-02 10:20:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:07:19,926] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.load 2020-06-02 10:24:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:07:19,928] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.extract 2020-06-02 10:28:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:07:19,931] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-02 10:32:00+00:00 [scheduled]> in ORM
+[2020-06-03 16:07:19,967] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py took 0.764 seconds

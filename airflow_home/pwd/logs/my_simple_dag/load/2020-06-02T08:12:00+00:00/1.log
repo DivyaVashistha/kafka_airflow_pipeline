@@ -1,0 +1,14 @@
+[2020-06-02 14:42:51,638] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T08:12:00+00:00 [queued]>
+[2020-06-02 14:42:51,647] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T08:12:00+00:00 [queued]>
+[2020-06-02 14:42:51,647] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 14:42:51,647] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-02 14:42:51,647] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 14:42:51,677] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): load> on 2020-06-02T08:12:00+00:00
+[2020-06-02 14:42:51,683] {standard_task_runner.py:53} INFO - Started process 24740 to run task
+[2020-06-02 14:42:51,771] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.load 2020-06-02T08:12:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-02 14:43:04,454] {logging_mixin.py:112} INFO - Loaded 37 rows into DatasetReference('silicon-perigee-271709', 'dataset_airflow_etl'):TableReference(DatasetReference('silicon-perigee-271709', 'dataset_airflow_etl'), 'airflow_table_assignment_divya').
+[2020-06-02 14:43:04,454] {python_operator.py:114} INFO - Done. Returned value was: 37
+[2020-06-02 14:43:04,497] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=my_simple_dag, task_id=load, execution_date=20200602T081200, start_date=20200602T091251, end_date=20200602T091304
+[2020-06-02 14:43:06,651] {logging_mixin.py:112} INFO - [2020-06-02 14:43:06,650] {local_task_job.py:103} INFO - Task exited with return code 0

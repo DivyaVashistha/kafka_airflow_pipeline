@@ -1,0 +1,72 @@
+[2020-06-09 16:08:54,113] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.extract 2020-06-02T11:14:00+00:00 [queued]>
+[2020-06-09 16:08:54,130] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.extract 2020-06-02T11:14:00+00:00 [queued]>
+[2020-06-09 16:08:54,130] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 16:08:54,130] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-09 16:08:54,130] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 16:08:54,162] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): extract> on 2020-06-02T11:14:00+00:00
+[2020-06-09 16:08:54,165] {standard_task_runner.py:53} INFO - Started process 31277 to run task
+[2020-06-09 16:08:54,262] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.extract 2020-06-02T11:14:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-09 16:09:04,301] {taskinstance.py:1145} ERROR - HTTPSConnectionPool(host='api.covid19india.org', port=443): Max retries exceeded with url: /data.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f75470deef0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 976, in _validate_conn
+    conn.connect()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/urllib3/connection.py", line 308, in connect
+    conn = self._new_conn()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f75470deef0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.covid19india.org', port=443): Max retries exceeded with url: /data.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f75470deef0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day33_08_06_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py", line 166, in extract_report_func
+    report_name = extract()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day33_08_06_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py", line 27, in extract
+    JSONContent = requests.get(url).json()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.covid19india.org', port=443): Max retries exceeded with url: /data.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f75470deef0>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+[2020-06-09 16:09:04,303] {taskinstance.py:1202} INFO - Marking task as FAILED.dag_id=my_simple_dag, task_id=extract, execution_date=20200602T111400, start_date=20200609T103854, end_date=20200609T103904
+[2020-06-09 16:09:09,113] {logging_mixin.py:112} INFO - [2020-06-09 16:09:09,112] {local_task_job.py:103} INFO - Task exited with return code 1

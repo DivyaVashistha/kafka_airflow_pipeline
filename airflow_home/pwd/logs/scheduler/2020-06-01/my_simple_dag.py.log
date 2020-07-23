@@ -1,0 +1,232 @@
+[2020-06-01 16:38:17,458] {scheduler_job.py:154} INFO - Started process (PID=11278) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:17,460] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:17,460] {logging_mixin.py:112} INFO - [2020-06-01 16:38:17,460] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:17,466] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:17,471] {logging_mixin.py:112} INFO - [2020-06-01 16:38:17,471] {dag.py:1501} INFO - Creating ORM DAG for my_simple_dag
+[2020-06-01 16:38:17,509] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.050 seconds
+[2020-06-01 16:38:19,445] {scheduler_job.py:154} INFO - Started process (PID=11279) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:19,447] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:19,447] {logging_mixin.py:112} INFO - [2020-06-01 16:38:19,447] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:19,453] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:19,483] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.038 seconds
+[2020-06-01 16:38:21,459] {scheduler_job.py:154} INFO - Started process (PID=11282) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:21,464] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:21,465] {logging_mixin.py:112} INFO - [2020-06-01 16:38:21,465] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:21,479] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:21,529] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.070 seconds
+[2020-06-01 16:38:23,462] {scheduler_job.py:154} INFO - Started process (PID=11283) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:23,470] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:23,472] {logging_mixin.py:112} INFO - [2020-06-01 16:38:23,471] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:23,482] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:23,517] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.055 seconds
+[2020-06-01 16:38:25,463] {scheduler_job.py:154} INFO - Started process (PID=11285) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:25,469] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:25,470] {logging_mixin.py:112} INFO - [2020-06-01 16:38:25,470] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:25,484] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:25,542] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.079 seconds
+[2020-06-01 16:38:27,466] {scheduler_job.py:154} INFO - Started process (PID=11286) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:27,472] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:27,473] {logging_mixin.py:112} INFO - [2020-06-01 16:38:27,473] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:27,487] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:27,533] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.067 seconds
+[2020-06-01 16:38:29,522] {scheduler_job.py:154} INFO - Started process (PID=11289) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:29,526] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:29,526] {logging_mixin.py:112} INFO - [2020-06-01 16:38:29,526] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:29,535] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:29,580] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.058 seconds
+[2020-06-01 16:38:31,472] {scheduler_job.py:154} INFO - Started process (PID=11290) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:31,478] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:31,479] {logging_mixin.py:112} INFO - [2020-06-01 16:38:31,479] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:31,492] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:31,531] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.060 seconds
+[2020-06-01 16:38:33,474] {scheduler_job.py:154} INFO - Started process (PID=11291) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:33,481] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:33,482] {logging_mixin.py:112} INFO - [2020-06-01 16:38:33,482] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:33,496] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:33,542] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.068 seconds
+[2020-06-01 16:38:35,469] {scheduler_job.py:154} INFO - Started process (PID=11293) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:35,471] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:35,472] {logging_mixin.py:112} INFO - [2020-06-01 16:38:35,472] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:35,481] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:35,535] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.066 seconds
+[2020-06-01 16:38:37,466] {scheduler_job.py:154} INFO - Started process (PID=11298) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:37,469] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:37,469] {logging_mixin.py:112} INFO - [2020-06-01 16:38:37,469] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:37,478] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:37,529] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.063 seconds
+[2020-06-01 16:38:39,477] {scheduler_job.py:154} INFO - Started process (PID=11301) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:39,483] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:39,484] {logging_mixin.py:112} INFO - [2020-06-01 16:38:39,484] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:39,499] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:39,559] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.082 seconds
+[2020-06-01 16:38:41,531] {scheduler_job.py:154} INFO - Started process (PID=11302) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:41,536] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:41,537] {logging_mixin.py:112} INFO - [2020-06-01 16:38:41,537] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:41,551] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:41,603] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.073 seconds
+[2020-06-01 16:38:43,489] {scheduler_job.py:154} INFO - Started process (PID=11311) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:43,495] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:43,496] {logging_mixin.py:112} INFO - [2020-06-01 16:38:43,496] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:43,513] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:43,571] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.082 seconds
+[2020-06-01 16:38:45,495] {scheduler_job.py:154} INFO - Started process (PID=11328) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:45,504] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:45,505] {logging_mixin.py:112} INFO - [2020-06-01 16:38:45,505] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:45,536] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:45,586] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.091 seconds
+[2020-06-01 16:38:47,488] {scheduler_job.py:154} INFO - Started process (PID=11332) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:47,497] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:47,498] {logging_mixin.py:112} INFO - [2020-06-01 16:38:47,498] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:47,526] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:47,590] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.102 seconds
+[2020-06-01 16:38:49,494] {scheduler_job.py:154} INFO - Started process (PID=11333) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:49,501] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:49,502] {logging_mixin.py:112} INFO - [2020-06-01 16:38:49,501] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:49,514] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:49,561] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.067 seconds
+[2020-06-01 16:38:51,494] {scheduler_job.py:154} INFO - Started process (PID=11334) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:51,500] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:51,501] {logging_mixin.py:112} INFO - [2020-06-01 16:38:51,501] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:51,514] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:51,554] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.060 seconds
+[2020-06-01 16:38:53,547] {scheduler_job.py:154} INFO - Started process (PID=11335) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:53,553] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:53,553] {logging_mixin.py:112} INFO - [2020-06-01 16:38:53,553] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:53,566] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:53,616] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:38:53,719] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-01T10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:38:53,728] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:38:53,751] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:38:53,754] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-01 10:50:00+00:00 [scheduled]> in ORM
+[2020-06-01 16:38:53,784] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.238 seconds
+[2020-06-01 16:38:55,495] {scheduler_job.py:154} INFO - Started process (PID=11336) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:55,498] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:38:55,498] {logging_mixin.py:112} INFO - [2020-06-01 16:38:55,498] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:55,507] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:38:55,573] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:38:55,626] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:38:55,665] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:38:55,669] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.174 seconds
+[2020-06-01 16:39:07,924] {scheduler_job.py:154} INFO - Started process (PID=11347) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:07,926] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:07,926] {logging_mixin.py:112} INFO - [2020-06-01 16:39:07,926] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:07,933] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:08,001] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:08,019] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:39:08,042] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:08,047] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.greet 2020-06-01 10:50:00+00:00 [scheduled]> in ORM
+[2020-06-01 16:39:08,110] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.187 seconds
+[2020-06-01 16:39:09,922] {scheduler_job.py:154} INFO - Started process (PID=11355) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:09,928] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:09,929] {logging_mixin.py:112} INFO - [2020-06-01 16:39:09,929] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:09,944] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:10,056] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:10,075] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:39:10,108] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:10,112] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.189 seconds
+[2020-06-01 16:39:22,319] {scheduler_job.py:154} INFO - Started process (PID=11368) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:22,321] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:22,322] {logging_mixin.py:112} INFO - [2020-06-01 16:39:22,321] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:22,328] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:22,367] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:22,379] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:39:22,397] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:22,400] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.sleep_me 2020-06-01 10:50:00+00:00 [scheduled]> in ORM
+[2020-06-01 16:39:22,431] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.112 seconds
+[2020-06-01 16:39:24,337] {scheduler_job.py:154} INFO - Started process (PID=11372) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:24,344] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:24,345] {logging_mixin.py:112} INFO - [2020-06-01 16:39:24,345] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:24,359] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:24,681] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:24,691] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:39:24,708] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:24,710] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.374 seconds
+[2020-06-01 16:39:36,757] {scheduler_job.py:154} INFO - Started process (PID=11390) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:36,759] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:36,759] {logging_mixin.py:112} INFO - [2020-06-01 16:39:36,759] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:36,767] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:36,824] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:36,839] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:39:36,856] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:36,859] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.respond 2020-06-01 10:50:00+00:00 [scheduled]> in ORM
+[2020-06-01 16:39:36,888] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.131 seconds
+[2020-06-01 16:39:38,767] {scheduler_job.py:154} INFO - Started process (PID=11391) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:38,774] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:38,775] {logging_mixin.py:112} INFO - [2020-06-01 16:39:38,774] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:38,802] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:38,893] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:38,905] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:39:38,922] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:38,924] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.158 seconds
+[2020-06-01 16:39:51,170] {scheduler_job.py:154} INFO - Started process (PID=11409) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:51,173] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:51,173] {logging_mixin.py:112} INFO - [2020-06-01 16:39:51,173] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:51,181] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:51,245] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:51,257] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False>
+[2020-06-01 16:39:51,266] {logging_mixin.py:112} INFO - [2020-06-01 16:39:51,266] {dagrun.py:318} INFO - Marking run <DagRun my_simple_dag @ 2020-06-01 10:50:00+00:00: scheduled__2020-06-01T10:50:00+00:00, externally triggered: False> successful
+[2020-06-01 16:39:51,290] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:51,292] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.122 seconds
+[2020-06-01 16:39:53,165] {scheduler_job.py:154} INFO - Started process (PID=11410) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:53,172] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:53,173] {logging_mixin.py:112} INFO - [2020-06-01 16:39:53,173] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:53,185] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:53,230] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:53,239] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:53,242] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.077 seconds
+[2020-06-01 16:39:55,162] {scheduler_job.py:154} INFO - Started process (PID=11411) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:55,169] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:55,170] {logging_mixin.py:112} INFO - [2020-06-01 16:39:55,170] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:55,182] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:55,286] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:55,302] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:55,305] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.143 seconds
+[2020-06-01 16:39:57,165] {scheduler_job.py:154} INFO - Started process (PID=11412) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:57,171] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:57,173] {logging_mixin.py:112} INFO - [2020-06-01 16:39:57,172] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:57,184] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:57,261] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:57,276] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:57,279] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.115 seconds
+[2020-06-01 16:39:59,168] {scheduler_job.py:154} INFO - Started process (PID=11413) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:59,175] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:39:59,176] {logging_mixin.py:112} INFO - [2020-06-01 16:39:59,175] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:59,186] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:39:59,241] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:39:59,251] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:39:59,254] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.086 seconds
+[2020-06-01 16:40:01,167] {scheduler_job.py:154} INFO - Started process (PID=11414) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:01,171] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:40:01,172] {logging_mixin.py:112} INFO - [2020-06-01 16:40:01,172] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:01,184] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:01,292] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:40:01,414] {scheduler_job.py:1294} INFO - Created <DagRun my_simple_dag @ 2020-06-01T11:00:00+00:00: scheduled__2020-06-01T11:00:00+00:00, externally triggered: False>
+[2020-06-01 16:40:01,421] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 11:00:00+00:00: scheduled__2020-06-01T11:00:00+00:00, externally triggered: False>
+[2020-06-01 16:40:01,448] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:40:01,452] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.say_Hi 2020-06-01 11:00:00+00:00 [scheduled]> in ORM
+[2020-06-01 16:40:01,489] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.322 seconds
+[2020-06-01 16:40:03,164] {scheduler_job.py:154} INFO - Started process (PID=11416) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:03,166] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:40:03,167] {logging_mixin.py:112} INFO - [2020-06-01 16:40:03,167] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:03,175] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:03,265] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:40:03,283] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 11:00:00+00:00: scheduled__2020-06-01T11:00:00+00:00, externally triggered: False>
+[2020-06-01 16:40:03,316] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:40:03,320] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.156 seconds
+[2020-06-01 16:40:15,662] {scheduler_job.py:154} INFO - Started process (PID=11433) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:15,670] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:40:15,671] {logging_mixin.py:112} INFO - [2020-06-01 16:40:15,671] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:15,684] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:15,730] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:40:15,739] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 11:00:00+00:00: scheduled__2020-06-01T11:00:00+00:00, externally triggered: False>
+[2020-06-01 16:40:15,760] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:40:15,763] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: my_simple_dag.greet 2020-06-01 11:00:00+00:00 [scheduled]> in ORM
+[2020-06-01 16:40:15,812] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.150 seconds
+[2020-06-01 16:40:17,634] {scheduler_job.py:154} INFO - Started process (PID=11434) to work on /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:17,637] {scheduler_job.py:1562} INFO - Processing file /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py for tasks to queue
+[2020-06-01 16:40:17,637] {logging_mixin.py:112} INFO - [2020-06-01 16:40:17,637] {dagbag.py:396} INFO - Filling up the DagBag from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:17,649] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['my_simple_dag']) retrieved from /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py
+[2020-06-01 16:40:17,732] {scheduler_job.py:1284} INFO - Processing my_simple_dag
+[2020-06-01 16:40:17,749] {scheduler_job.py:759} INFO - Examining DAG run <DagRun my_simple_dag @ 2020-06-01 11:00:00+00:00: scheduled__2020-06-01T11:00:00+00:00, externally triggered: False>
+[2020-06-01 16:40:17,783] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: my_simple_dag> because no tasks in DAG have SLAs
+[2020-06-01 16:40:17,785] {scheduler_job.py:162} INFO - Processing /home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py took 0.151 seconds

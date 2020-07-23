@@ -1,0 +1,27 @@
+[2020-06-09 15:53:03,007] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T10:58:00+00:00 [queued]>
+[2020-06-09 15:53:03,023] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T10:58:00+00:00 [queued]>
+[2020-06-09 15:53:03,023] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 15:53:03,023] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-09 15:53:03,023] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 15:53:03,067] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): load> on 2020-06-02T10:58:00+00:00
+[2020-06-09 15:53:03,077] {standard_task_runner.py:53} INFO - Started process 29986 to run task
+[2020-06-09 15:53:03,201] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.load 2020-06-02T10:58:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-09 15:53:03,225] {logging_mixin.py:112} INFO - 2020-06-09
+[2020-06-09 15:53:12,916] {logging_mixin.py:112} INFO - [2020-06-09 15:53:12,915] {conn.py:378} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+[2020-06-09 15:53:12,922] {logging_mixin.py:112} INFO - [2020-06-09 15:53:12,917] {conn.py:407} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+[2020-06-09 15:53:12,932] {logging_mixin.py:112} INFO - [2020-06-09 15:53:12,932] {conn.py:378} INFO - <BrokerConnection node_id=0 host=nineleaps-ThinkPad-E470:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to nineleaps-ThinkPad-E470:9092 [('127.0.1.1', 9092) IPv4]
+[2020-06-09 15:53:12,933] {logging_mixin.py:112} INFO - [2020-06-09 15:53:12,933] {conn.py:407} INFO - <BrokerConnection node_id=0 host=nineleaps-ThinkPad-E470:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+[2020-06-09 15:53:12,934] {logging_mixin.py:112} INFO - [2020-06-09 15:53:12,934] {conn.py:916} INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+[2020-06-09 15:53:12,937] {logging_mixin.py:112} INFO - Message published successfully.
+[2020-06-09 15:53:12,940] {logging_mixin.py:112} INFO - Message published successfully.
+[2020-06-09 15:53:12,943] {logging_mixin.py:112} INFO - Message published successfully.
+[2020-06-09 15:53:12,946] {logging_mixin.py:112} INFO - Message published successfully.
+[2020-06-09 15:53:12,948] {logging_mixin.py:112} INFO - Message published successfully.
+[2020-06-09 15:53:12,948] {logging_mixin.py:112} INFO - [2020-06-09 15:53:12,948] {kafka.py:471} INFO - Closing the Kafka producer with 9223372036.0 secs timeout.
+[2020-06-09 15:53:12,949] {logging_mixin.py:112} INFO - [2020-06-09 15:53:12,949] {conn.py:916} INFO - <BrokerConnection node_id=0 host=nineleaps-ThinkPad-E470:9092 <connected> [IPv4 ('127.0.1.1', 9092)]>: Closing connection. 
+[2020-06-09 15:53:12,949] {logging_mixin.py:112} INFO - [2020-06-09 15:53:12,949] {kafka.py:461} INFO - Kafka producer closed
+[2020-06-09 15:53:12,950] {python_operator.py:114} INFO - Done. Returned value was: 37
+[2020-06-09 15:53:13,040] {taskinstance.py:1065} INFO - Marking task as SUCCESS.dag_id=my_simple_dag, task_id=load, execution_date=20200602T105800, start_date=20200609T102303, end_date=20200609T102313
+[2020-06-09 15:53:17,993] {logging_mixin.py:112} INFO - [2020-06-09 15:53:17,992] {local_task_job.py:103} INFO - Task exited with return code 0

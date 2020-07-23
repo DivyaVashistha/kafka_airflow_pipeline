@@ -1,0 +1,31 @@
+[2020-06-02 22:08:27,642] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.extract 2020-06-02T09:52:00+00:00 [queued]>
+[2020-06-02 22:08:27,651] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.extract 2020-06-02T09:52:00+00:00 [queued]>
+[2020-06-02 22:08:27,651] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 22:08:27,651] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-02 22:08:27,651] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 22:08:27,683] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): extract> on 2020-06-02T09:52:00+00:00
+[2020-06-02 22:08:27,685] {standard_task_runner.py:53} INFO - Started process 31839 to run task
+[2020-06-02 22:08:27,746] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.extract 2020-06-02T09:52:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-02 22:08:28,629] {taskinstance.py:1145} ERROR - [Errno 2] No such file or directory: '/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/my_pipeline/reports/2020-06-02.csv'
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py", line 102, in extract_report_func
+    report_name = extract()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/pwd/dags/my_simple_dag.py", line 36, in extract
+    df.to_csv(UPLOAD_DIRECTORY+'/reports/{}.csv'.format(datetime.now().date()), index=False)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/pandas/core/generic.py", line 3228, in to_csv
+    formatter.save()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/pandas/io/formats/csvs.py", line 183, in save
+    compression=self.compression,
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/pandas/io/common.py", line 399, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/airflow_home/my_pipeline/reports/2020-06-02.csv'
+[2020-06-02 22:08:28,634] {taskinstance.py:1202} INFO - Marking task as FAILED.dag_id=my_simple_dag, task_id=extract, execution_date=20200602T095200, start_date=20200602T163827, end_date=20200602T163828
+[2020-06-02 22:08:37,618] {logging_mixin.py:112} INFO - [2020-06-02 22:08:37,618] {local_task_job.py:103} INFO - Task exited with return code 1

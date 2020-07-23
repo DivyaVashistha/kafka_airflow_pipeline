@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/lockfile/pidlockfile.py", line 77, in acquire
+    write_pid_to_pidfile(self.path)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/lockfile/pidlockfile.py", line 161, in write_pid_to_pidfile
+    pidfile_fd = os.open(pidfile_path, open_flags, open_mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'pwd/airflow-webserver-monitor.pid'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/bin/airflow", line 37, in <module>
+    args.func(args)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/utils/cli.py", line 75, in wrapper
+    return f(*args, **kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/airflow/bin/cli.py", line 976, in webserver
+    with ctx:
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/daemon/daemon.py", line 397, in __enter__
+    self.open()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/daemon/daemon.py", line 389, in open
+    self.pidfile.__enter__()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/lockfile/__init__.py", line 197, in __enter__
+    self.acquire()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/daemon/pidfile.py", line 60, in acquire
+    super(TimeoutPIDLockFile, self).acquire(timeout, *args, **kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/asf/venv/lib/python3.6/site-packages/lockfile/pidlockfile.py", line 91, in acquire
+    raise LockFailed("failed to create %s" % self.path)
+lockfile.LockFailed: failed to create pwd/airflow-webserver-monitor.pid

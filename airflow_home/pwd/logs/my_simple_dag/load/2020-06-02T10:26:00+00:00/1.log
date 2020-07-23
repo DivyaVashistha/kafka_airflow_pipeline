@@ -1,0 +1,31 @@
+[2020-06-09 14:40:03,000] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T10:26:00+00:00 [queued]>
+[2020-06-09 14:40:03,014] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: my_simple_dag.load 2020-06-02T10:26:00+00:00 [queued]>
+[2020-06-09 14:40:03,015] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 14:40:03,015] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-09 14:40:03,015] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-09 14:40:03,043] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): load> on 2020-06-02T10:26:00+00:00
+[2020-06-09 14:40:03,045] {standard_task_runner.py:53} INFO - Started process 26343 to run task
+[2020-06-09 14:40:03,131] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: my_simple_dag.load 2020-06-02T10:26:00+00:00 [running]> nineleaps-ThinkPad-E470
+[2020-06-09 14:40:03,149] {taskinstance.py:1145} ERROR - Service account info was not in the expected format, missing fields token_uri, client_email.
+Traceback (most recent call last):
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day33_08_06_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py", line 115, in load_data_func
+    output_rows = load_data(report_name)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day33_08_06_2020/assignment/airflow_home/pwd/dags/my_simple_dag.py", line 65, in load_data
+    scopes=["https://www.googleapis.com/auth/cloud-platform"],
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/google/oauth2/service_account.py", line 218, in from_service_account_file
+    filename, require=["client_email", "token_uri"]
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/google/auth/_service_account_info.py", line 74, in from_filename
+    return data, from_dict(data, require=require)
+  File "/home/nineleaps/Desktop/work_from_home_assignments/python_assignment/day32_29_05_2020/assignment/venv/lib/python3.6/site-packages/google/auth/_service_account_info.py", line 51, in from_dict
+    "fields {}.".format(", ".join(missing))
+ValueError: Service account info was not in the expected format, missing fields token_uri, client_email.
+[2020-06-09 14:40:03,150] {taskinstance.py:1202} INFO - Marking task as FAILED.dag_id=my_simple_dag, task_id=load, execution_date=20200602T102600, start_date=20200609T091003, end_date=20200609T091003
+[2020-06-09 14:40:12,951] {logging_mixin.py:112} INFO - [2020-06-09 14:40:12,951] {local_task_job.py:103} INFO - Task exited with return code 1
